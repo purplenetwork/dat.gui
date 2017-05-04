@@ -3,20 +3,23 @@ A lightweight graphical user interface for changing variables in JavaScript.
 
 Get started with dat.GUI by reading the tutorial at http://workshop.chromeexperiments.com/examples/gui.
 
+## Usage with NodeJS
+Install it
+```
+$ npm install --save https://github.com/purplenetwork/dat.gui
+```
 
-
+Use the library as a module
+```
+var dat = require('dat.gui');
+var gui = new dat.GUI();
+```
 ## Packaged Builds
 The easiest way to use dat.GUI in your code is by using the built source at `build/dat.gui.min.js`. These built JavaScript files bundle all the necessary dependencies to run dat.GUI.
 
 In your `head` tag, include the following code:
 ```
 <script type="text/javascript" src="dat.gui.min.js"></script>
-```
-
-Otherwise you can require dat.GUI library as a module
-```
-var dat = require('dat.gui');
-var gui = new dat.GUI();
 ```
 
 ## Directory Contents
