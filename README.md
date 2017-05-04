@@ -13,6 +13,12 @@ In your `head` tag, include the following code:
 <script type="text/javascript" src="dat.gui.min.js"></script>
 ```
 
+Otherwise you can require dat.GUI library as a module
+```
+var dat = require('dat.gui');
+var gui = new dat.GUI();
+```
+
 ## Directory Contents
 
 ```
